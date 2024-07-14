@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.card {
+    h2 {
+        color: $primary-color;
+    }
+
+    p {
+        font-size: 24px;
+        color: $secondary-color;
+        text-align: center;
+    }
+}

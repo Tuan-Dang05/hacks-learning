@@ -1,0 +1,157 @@
+.footer {
+    padding: 40px 0;
+    padding-bottom: 15px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .footer_content {
+      
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    h5 {
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+        color: black;
+    }
+
+    .list-unstyled {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 30px;
+        .tree__link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            i {
+                color: black;
+            }
+        }
+        li {
+            i {
+                color: black;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+.footer a:hover {
+    // color: #007bff;
+    text-decoration: none;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: black;
+    font-size: 20px;
+}
+.footer .social-icons a:hover {
+    // color: #007bff;
+    color: black;
+}
+
+.footer h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    // background-color: #007bff;
+}
+
+// BUTTON LOCATION
+.button-icon {
+    display: flex;
+    border: 3px black solid;
+    margin-bottom: 50px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.icon_location {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+
+    .location {
+        width: 25px;
+        height: 32px;
+        color: black;
+        font-size: 27px;
+    }
+}
+
+.cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+}
+
+.button-icon:hover {
+    border-color: black;
+}
+
+.button-icon:hover .cube {
+    transform: rotateX(90deg);
+}
+
+.side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.top {
+    background: white;
+    color: black;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+}
+
+@media (max-width: 500px) {
+    .row {
+        font-size: 10px;
+        ss .copy {
+            margin-left: -50px;
+        }
+        .privacy {
+            margin-right: -50px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer_content {
+        p {
+            margin-left: -90px;
+        }
+        .button-icon {
+            margin-left: -80px;
+        }
+    }
+}

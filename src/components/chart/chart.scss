@@ -1,0 +1,17 @@
+.chart-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chart-container {
+    width: 300px;  // Adjust width as needed
+    height: 300px; // Adjust height as needed
+    margin: 20px;
+    position: relative;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}

@@ -1,0 +1,68 @@
+import React, { useState } from 'react';
+import AddEditStudent from '../components/AddEditStudent/AddEditStudent';
+import StudentList from '../components/StudentList/StudentList';
+import UploadExcel from '../components/UploadExcel/UploadExcel';
+import AddEditScore from '../components/AddEditScore/AddEditScore';
+import ScoreList from '../components/ScoreList/ScoreList';
+import CalculateAverage from '../components/CalculateAverage/CalculateAverage';
+import '../styles/app.scss';
+const DashBoardLayout = () => {
+    const [students, setStudents] = useState([]);
+    const [scores, setScores] = useState([]);
+    const [currentStudent, setCurrentStudent] = useState(null);
+    const [currentScore, setCurrentScore] = useState(null);
+
+    const handleSaveStudent = (student) => {
+        if (currentStudent) {
+            setStudents(students.map(s => s === currentStudent ? student : s));
+            setCurrentStudent(null);
+        } else {
+            setStudents([...students, student]);
+        }
+    };
+
+    const handleDeleteStudent = (student) => {
+        setStudents(students.filter(s => s !== student));
+    };
+
+    const handleSaveScore = (score) => {
+        if (currentScore) {
+            setScores(scores.map(s => s === currentScore ? score : s));
+            setCurrentScore(null);
+        } else {
+            setScores([...scores, score]);
+        }
+    };
+
+    const handleDeleteScore = (score) => {
+        setScores(scores.filter(s => s !== score));
+    };
+
+    const handleUpload = (data) => {
+        setStudents([...students, ...data]);
+    };
+    return (
+        <div>
+            <div className="container">
+                <h1>Quản Lý Học Sinh</h1>
+                <AddEditStudent student={currentStudent} onSave={handleSaveStudent} />
+                <StudentList
+                    students={students}
+                    onEdit={setCurrentStudent}
+                    onDelete={handleDeleteStudent}
+                />
+                <UploadExcel onUpload={handleUpload} />
+                <h1>Quản Lý Điểm</h1>
+                <AddEditScore score={currentScore} onSave={handleSaveScore} />
+                <ScoreList
+                    scores={scores}
+                    onEdit={setCurrentScore}
+                    onDelete={handleDeleteScore}
+                />
+                <CalculateAverage scores={scores} />
+            </div>
+        </div>
+    );
+}
+
+export default DashBoardLayout;

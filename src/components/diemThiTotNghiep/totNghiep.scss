@@ -1,0 +1,14 @@
+.diemthi-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.diemthi-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}

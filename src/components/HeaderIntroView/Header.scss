@@ -1,0 +1,109 @@
+.navbar {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(58, 58, 58, 0.5); /* Shadow at the top */
+    // margin-right: -40px;
+    .navbar-logo {
+        img {
+            width: 40px;
+            margin-left: 65px;
+        }
+
+        i {
+            font-weight: 700;
+            margin-left: 10px;
+        }
+    }
+
+    &-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    .navbar-links {
+        margin-left: 30px;
+    }
+
+    &-auth {
+     
+        // float: right;
+        .auth-btn {
+            position: relative;
+            background: none;
+            border: none;
+            color: black;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login {
+            border: 1px solid black;
+            padding: 0px 15px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.dropdown {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+
+    &.active {
+        height: 60vh;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(-100%);
+    }
+
+    &.active .dropdown-content {
+        transform: translateY(0);
+    }
+}
+// GET STARTED
+.get_started {
+    // display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding: 10px 0px;
+    width: 80%;
+    color: white;
+    background-color: #181717;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.get_started:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.get_started:hover {
+    color: #181717;
+}
+
+

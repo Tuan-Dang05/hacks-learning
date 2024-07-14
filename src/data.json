@@ -1,0 +1,153 @@
+[
+    {
+        "studentId": "HS001",
+        "name": "Nguyễn Văn A",
+        "year": "Lớp 10",
+        "subjects": [
+            { "name": "Toán", "score": 8.5 },
+            { "name": "Văn", "score": 7.0 },
+            { "name": "Anh", "score": 8.0 },
+            { "name": "Lý", "score": 8.2 },
+            { "name": "Hóa", "score": 7.5 },
+            { "name": "Sinh", "score": 8.8 },
+            { "name": "GDCD", "score": 7.5 },
+            { "name": "Công nghệ", "score": 8.0 },
+            { "name": "Lịch sử", "score": 7.7 },
+            { "name": "Địa lý", "score": 8.3 }
+        ]
+    },
+    {
+        "studentId": "HS001",
+        "name": "Nguyễn Văn A",
+        "year": "Lớp 11",
+        "subjects": [
+            { "name": "Toán", "score": 8.0 },
+            { "name": "Văn", "score": 7.5 },
+            { "name": "Anh", "score": 8.5 },
+            { "name": "Lý", "score": 8.3 },
+            { "name": "Hóa", "score": 7.8 },
+            { "name": "Sinh", "score": 8.7 },
+            { "name": "GDCD", "score": 7.8 },
+            { "name": "Công nghệ", "score": 8.3 },
+            { "name": "Lịch sử", "score": 7.9 },
+            { "name": "Địa lý", "score": 8.5 }
+        ]
+    },
+    {
+        "studentId": "HS001",
+        "name": "Nguyễn Văn A",
+        "year": "Lớp 12",
+        "subjects": [
+            { "name": "Toán", "score": 8.8 },
+            { "name": "Văn", "score": 7.8 },
+            { "name": "Anh", "score": 8.7 },
+            { "name": "Lý", "score": 8.5 },
+            { "name": "Hóa", "score": 8.0 },
+            { "name": "Sinh", "score": 8.9 },
+            { "name": "GDCD", "score": 8.0 },
+            { "name": "Công nghệ", "score": 8.5 },
+            { "name": "Lịch sử", "score": 8.2 },
+            { "name": "Địa lý", "score": 8.8 }
+        ]
+    },
+    {
+        "studentId": "HS002",
+        "name": "Trần Thị B",
+        "year": "Lớp 10",
+        "subjects": [
+            { "name": "Toán", "score": 7.5 },
+            { "name": "Văn", "score": 6.0 },
+            { "name": "Anh", "score": 7.0 },
+            { "name": "Lý", "score": 7.2 },
+            { "name": "Hóa", "score": 6.5 },
+            { "name": "Sinh", "score": 7.8 },
+            { "name": "GDCD", "score": 6.5 },
+            { "name": "Công nghệ", "score": 7.0 },
+            { "name": "Lịch sử", "score": 6.8 },
+            { "name": "Địa lý", "score": 7.3 }
+        ]
+    },
+    {
+        "studentId": "HS002",
+        "name": "Trần Thị B",
+        "year": "Lớp 11",
+        "subjects": [
+            { "name": "Toán", "score": 7.0 },
+            { "name": "Văn", "score": 6.5 },
+            { "name": "Anh", "score": 7.5 },
+            { "name": "Lý", "score": 7.3 },
+            { "name": "Hóa", "score": 6.8 },
+            { "name": "Sinh", "score": 7.7 },
+            { "name": "GDCD", "score": 6.8 },
+            { "name": "Công nghệ", "score": 7.3 },
+            { "name": "Lịch sử", "score": 7.0 },
+            { "name": "Địa lý", "score": 7.5 }
+        ]
+    },
+    {
+        "studentId": "HS002",
+        "name": "Trần Thị B",
+        "year": "Lớp 12",
+        "subjects": [
+            { "name": "Toán", "score": 7.8 },
+            { "name": "Văn", "score": 6.8 },
+            { "name": "Anh", "score": 7.7 },
+            { "name": "Lý", "score": 7.5 },
+            { "name": "Hóa", "score": 7.0 },
+            { "name": "Sinh", "score": 7.9 },
+            { "name": "GDCD", "score": 7.0 },
+            { "name": "Công nghệ", "score": 7.5 },
+            { "name": "Lịch sử", "score": 7.2 },
+            { "name": "Địa lý", "score": 7.8 }
+        ]
+    },
+    {
+        "studentId": "HS003",
+        "name": "Lê Văn C",
+        "year": "Lớp 10",
+        "subjects": [
+            { "name": "Toán", "score": 9.0 },
+            { "name": "Văn", "score": 8.5 },
+            { "name": "Anh", "score": 9.0 },
+            { "name": "Lý", "score": 8.8 },
+            { "name": "Hóa", "score": 8.3 },
+            { "name": "Sinh", "score": 9.1 },
+            { "name": "GDCD", "score": 8.5 },
+            { "name": "Công nghệ", "score": 9.0 },
+            { "name": "Lịch sử", "score": 8.7 },
+            { "name": "Địa lý", "score": 9.2 }
+        ]
+    },
+    {
+        "studentId": "HS003",
+        "name": "Lê Văn C",
+        "year": "Lớp 11",
+        "subjects": [
+            { "name": "Toán", "score": 9.2 },
+            { "name": "Văn", "score": 8.8 },
+            { "name": "Anh", "score": 9.3 },
+            { "name": "Lý", "score": 9.0 },
+            { "name": "Hóa", "score": 8.5 },
+            { "name": "Sinh", "score": 9.4 },
+            { "name": "GDCD", "score": 8.8 },
+            { "name": "Công nghệ", "score": 9.3 },
+            { "name": "Lịch sử", "score": 9.1 },
+            { "name": "Địa lý", "score": 9.5 }
+        ]
+    },
+    {
+        "studentId": "HS003",
+        "name": "Lê Văn C",
+        "year": "Lớp 12",
+        "subjects": [
+            { "name": "Toán", "score": 9.4 },
+            { "name": "Văn", "score": 8.9 },
+            { "name": "Anh", "score": 9.5 },
+            { "name": "Lý", "score": 9.3 },
+            { "name": "Hóa", "score": 9.0 },
+            { "name": "Sinh", "score": 9.7 },
+            { "name": "GDCD", "score": 9.0 },
+            { "name": "Công nghệ", "score": 9.0 }
+        ]
+    }
+]

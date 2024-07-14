@@ -1,0 +1,88 @@
+/* src/StudyProcess.scss */
+.study-process {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+
+    h2 {
+        color: #4caf50;
+        border-bottom: 2px solid #4caf50;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    }
+
+    .average,
+    .rank {
+        font-size: 1.1em;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .average {
+        background-color: #f9f9f9;
+        border: 1px solid #4caf50;
+        color: #4caf50;
+    }
+
+    .rank {
+        background-color: #fff3cd;
+        border: 1px solid #ffecb5;
+        color: #856404;
+    }
+
+    .rank.xuat-sac {
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+    }
+
+    .rank.gioi {
+        background-color: #cce5ff;
+        border: 1px solid #b8daff;
+        color: #004085;
+    }
+
+    .rank.kha {
+        background-color: #ffeeba;
+        border: 1px solid #ffeeba;
+        color: #856404;
+    }
+
+    .rank.trung-binh {
+        background-color: #e2e3e5;
+        border: 1px solid #d6d8db;
+        color: #383d41;
+    }
+
+    .rank.yeu {
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+        color: #721c24;
+    }
+}

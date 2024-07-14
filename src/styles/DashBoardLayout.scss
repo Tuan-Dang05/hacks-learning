@@ -1,0 +1,84 @@
+.search_msv {
+    // background-color: red;
+    // margin: 0 auto;
+    .input_msv {
+        padding: 10px;
+        width: 500px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .btn_msv {
+        padding-left: 10px;
+        font-weight: 700;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(to right top, #c6c8cb, #c2c7da, #c8c4e6, #d7beed, #edb6ec);
+    }
+    .btn_msv:hover {
+        transition: all 1s ease-in-out;
+        background-image: linear-gradient(to right top, #b7ebf9, #abf0f6, #a4f4ee, #a4f8e2, #acfad1);
+    }
+}
+.chart{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-top: -5px;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
